@@ -1,0 +1,127 @@
+h1{
+    font-family: Impact, fantasy;
+    font-size: 50px;
+    color: #ffceac;
+    background-color: #ffffaf;
+    font-style: italic;
+}
+h3{
+    font-family: Helvetica, sans-serif;
+    color: #ffceac;
+}
+#menu{
+    width: 100%;
+    height: 40px;
+    padding-top: 12px;
+    background-color: skyblue;
+}
+
+
+#menu a{
+    color: #feefe4;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 800;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#menu a:hover{
+    color: white;
+}
+
+.gallery img {
+    float: left;
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    transition: filter o.3s ease;
+}
+
+.gallery img:hover{
+    filter: brightness(80%);
+}
+
+.gallery img{
+    border: 3px solid powderblue;
+}
+
+h4{
+   font-family: Impact, fantasy;
+    color: skyblue;
+    font-style: italic;
+    font-size: 25px; 
+}
+p{
+    font-family: Helvetica, sans-serif;
+    color: skyblue;
+}
+table{
+    font-family: Helvetica, monospace;
+    border-collapse: collapse;
+    background-color: powderblue;
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: skyblue;
+}
+th{
+    font-weight: 800;
+    background-color: skyblue;
+    color: white
+}
+tr:hover{
+    background-color: skyblue;
+}
+#other-buttons a{
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: skyblue;
+    color: white;
+    padding: 5px;
+}
+
+#other-buttons a:hover{
+    background-color: powderblue;
+    color: white;
+
+}
+#out-of-stock a{
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: darkgray;
+    color: white;
+    padding: 5px;
+}
+.logo img {
+    float: left;
+    width:  1520px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+h2{
+    font-family: Helvetica, sans-serif;
+    color: skyblue;
+    background-color: aliceblue;
+}
+input[type=text]{
+    width: 75%;
+    padding: 8px 16px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px solid powderblue;
+    color: skyblue;
+    background-color: aliceblue;
+    transition: width 0.4s ease-in-out;
+    resize: none;
+}
+
+input[type=text]:focus{
+    border: 2px solid skyblue;
+    width: 85%;
+}
